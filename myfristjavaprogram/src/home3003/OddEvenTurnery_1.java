@@ -2,7 +2,7 @@ package home3003;
 
 import java.util.Scanner;
 
-public class Oddeven_1 {
+public class OddEvenTurnery_1 {
     public static void main(String[] args) {
         int a;
         System.out.println(" Enter the number to check if the number is odd or even ");
