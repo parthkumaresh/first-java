@@ -2,35 +2,33 @@ package home3003;
 
 import java.util.Scanner;
 
-public class LeapYearLesson_2 {
-    public static void main(String[] args)
-    {
-        Scanner days = new Scanner(System.in);
-        int year = days.nextInt();
-        boolean Leap = false;
+public class
+LeapYearLesson_2 {
+    public static void main(String args[]) {
+        int yr;
+        Scanner scan = new Scanner(System.in);
 
-        if (year % 4 == 0)
+        System.out.print("Enter Year : ");
+        yr = scan.nextInt();
+
+        if((yr%4 == 0) && (yr%100!=0))
         {
-            if (year % 100 == 0)
-            {
-                if (year % 400 == 0)
-
-                    Leap = true;
-                else
-                    Leap = false;
-                } else
-
-                Leap = true;
-        }   else
-            {
-            Leap = false;
-            }
-        if ( Leap == true)
-            System.out.println(year + "  is a leap year.");
+            System.out.print("This is a Leap Year");
+        }
+        else if((yr%100 == 0) && (yr%400 == 0))
+        {
+            System.out.print("This is a Leap Year");
+        }
+        else if(yr%400 == 0)
+        {
+            System.out.print("This is a Leap Year");
+        }
         else
-            System.out.println(year + "  is a not leap year");
+        {
+            System.out.print("This is not a Leap Year");
         }
     }
+}
 
 
 
