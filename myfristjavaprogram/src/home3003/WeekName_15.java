@@ -3,7 +3,9 @@ package home3003;
 import java.util.Scanner;
 
 public class WeekName_15 {
-
+    /**
+     * Description is wrong if you entered 1 then result should be " It is Monday on 1th Day of week "
+     */
     public static void main(String[] args) {
 
         int day;

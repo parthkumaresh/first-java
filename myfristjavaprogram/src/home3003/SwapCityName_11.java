@@ -3,6 +3,11 @@ package home3003;
 import java.util.Scanner;
 
 public class SwapCityName_11 {
+    /**
+     * Capital letter is not working
+     * please make correction so it work with capital and small letter
+     * overall good work.
+     */
     public static void main(String[] args) {
 
         Scanner intp = new Scanner(System.in);

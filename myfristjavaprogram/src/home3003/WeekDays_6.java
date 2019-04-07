@@ -4,6 +4,31 @@ import java.util.Scanner;
 
 public class WeekDays_6 {
     public static void main(String[] args) {
+    /**
+    * This programme should be
+     * WAP to input employee id, name, basic salary then find HRA, TA, DA, PF and Gross
+     salary
+     HRA = basic salary 10%
+     DA = Basic salary 8%
+     TA = Basic salary 9%
+     PF= Basic salary 20%
+     Gross salary = basic salary + HRA + TA + DA –PF
+     Print in following format
+     ________________________________
+     | Salary Slip |
+     |_______________________________|
+     | Employee Id : 2564 |
+     | Employee Name : Jay |
+     |_______________________________|
+     | Basic Salary : 25000.0 |
+     | HRA 10% : 2500.0 |
+     | TA 8% : 2250.0 |
+     | DA 9% : 2000.0 |
+     | PF - 20&amp; : 5000.0 |
+     |______________________________|
+     | Gross Salary : 26750.0 |
+     |==============================|
+    */
         //  Scanner names = new Scanner(System.in );
         // System.out.println( " Enter the names of the days: " );
         int day;

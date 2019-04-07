@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class
 LeapYearLesson_2 {
     public static void main(String args[]) {
+        /**
+         * This programme is not working as expected.
+         * Enter -1
+         * Expected result:- Invalid input or -1
+         * Actual result :- -1 is not Leap Year
+         */
         int yr;
         Scanner scan = new Scanner(System.in);
 

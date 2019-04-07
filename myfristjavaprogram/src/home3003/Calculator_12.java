@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Calculator_12 {
         public static void main(String args[])
         {
+            /**
+             * This programme is working as expected
+             * Good Work
+             */
             int a, b, res;
             char ch;
             Scanner scan = new Scanner(System.in);

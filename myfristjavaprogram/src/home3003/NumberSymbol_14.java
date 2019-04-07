@@ -6,6 +6,9 @@ public class NumberSymbol_14 {
 
 
     public static void main(String[] args) {
+        /**
+         * This programme is working as expected
+         * */
 
         Scanner scanner = new Scanner(System.in);
 

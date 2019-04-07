@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class AverageNumber_7 {
 
     public static void main(String[] args) {
-
+        /**
+        * This programme is working as expected
+        * Good Work
+        */
 
         Scanner scanner=new Scanner(System.in);
 

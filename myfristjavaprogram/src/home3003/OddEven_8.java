@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class OddEven_8 {
 
         public static void main(String[] args) {
+
+            /**
+             * This programme is working as expected
+             * */
             int oddeven;
 
 

@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class SalesCommission_9 {
 
     public static void main(String[] args) {
+        /**
+         * Well Done
+         */
         Scanner scanner = new Scanner(System.in);
 
         String name;

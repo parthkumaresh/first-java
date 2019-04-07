@@ -2,6 +2,12 @@ package home3003;
 
 public class Devision_13 {
     public static void main(String[] args) {
+        /**
+         * Spell mistake Division- Class Name
+         * This programme is working as expected
+         * Good Work
+         */
+
         int one = 1;
         int hundred = 100;
         int number;

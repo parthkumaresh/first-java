@@ -1,11 +1,15 @@
 package home3003;
 
 public class Person_16{
+    /**
+     * This programme is working as expected
+     * */
 
     String firstName, lastName;
     int age;
 
     public static void main(String[] args) {
+
         Person_16 person = new Person_16();
         person.setFirstName("");
         person.setLastName("");
@@ -55,4 +59,5 @@ public class Person_16{
     private boolean isTeen(){
         return getAge() > 12 && getAge() < 20;
     }
+
 }

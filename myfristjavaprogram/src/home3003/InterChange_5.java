@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class InterChange_5 {
 
     public static void main(String args[]) {
-
+        /**
+         * This programme is working as expected
+         * Before swapping and After swapping are very good for user to understand result.
+         */
         int x;
         int y;
 

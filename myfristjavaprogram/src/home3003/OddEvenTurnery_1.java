@@ -4,12 +4,17 @@ import java.util.Scanner;
 
 public class OddEvenTurnery_1 {
     public static void main(String[] args) {
+        /**
+         * This programme is not working as expected
+         * see inline comments
+         */
+
         int a;
         System.out.println(" Enter the number to check if the number is odd or even ");
         Scanner digit = new Scanner ( System.in );
         a = digit.nextInt();
 
-        if (a % 4 == 0)
+        if (a % 4 == 0) // Wrong logic as if you enter 78999966 then result "This is odd number" but it is even number change logic to (a % 2 == 0)
         System.out.println("This is even number ");
         else
         System.out.println("This is odd number ");
