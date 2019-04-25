@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class IterateArrayList_18 {
     public static void main(String[] args) {
 
+        /*Working as expected*/
+
         ArrayList<String> vegetables= new ArrayList<>();
 
         vegetables.add("Cucumber");

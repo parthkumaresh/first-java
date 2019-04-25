@@ -4,8 +4,11 @@ import java.util.Arrays;
 
 public class CompareArraysEliments_03 {
     public static void main(String[] args) {
+
+        /*Working as expected*/
+
         char chararray [] = {'a','b','c',};
-        char chararrays [] = {'a','b','c',};
+        char chararrays [] = {'a','b','d',};
         Object[] arr1 = {chararray};  // arr1 contains only one element
         Object[] arr2 =  {chararrays};  // arr2 also contains only one element
         Object[] outarr1 = {arr1}; // outarr1 contains only one element

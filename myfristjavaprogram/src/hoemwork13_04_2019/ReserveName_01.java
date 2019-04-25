@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class ReserveName_01 {
     public static void main(String[] args) {
+
+        /*Working as expected*/
+
         int num, reverse  = 0;
         System.out.println(" Enter an inter the reserve ");
         Scanner total = new Scanner ( System.in);

@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class RemoveElement_10 {
     public static void main(String[] args) {
+
+        /* Not Working as expected
+        * Deleted correct element but adding at end one element 8
+         * I have try to delete last element but it is not deleted*/
+
         Scanner in = new Scanner(System.in);
         int[] intArr = {1, 2, 5, 12, 7, 3, 8};
         System.out.print("Enter Element to be deleted : ");

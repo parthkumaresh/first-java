@@ -4,6 +4,9 @@ import java.util.Date;
 
 public class Calendar_23 {
     public static void main(String[] args) {
+
+        /*Working as expected*/
+
         // Initiate a Date Object
         Date date = new Date();
 

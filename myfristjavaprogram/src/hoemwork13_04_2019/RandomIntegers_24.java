@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class RandomIntegers_24 {
     public static void main(String[] args) {
 
+        /*Working as expected*/
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Input the starting number of range : ");
         int rsnum = sc.nextInt();

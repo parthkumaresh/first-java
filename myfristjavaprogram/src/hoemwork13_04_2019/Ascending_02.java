@@ -3,6 +3,9 @@ package hoemwork13_04_2019;
 import java.util.Scanner;
 
 public class Ascending_02 {
+
+    /*Not Working as expected*/
+
     public static void main(String[] args) {
         int num, i, j, temp;
         Scanner sac = new Scanner ( System.in);

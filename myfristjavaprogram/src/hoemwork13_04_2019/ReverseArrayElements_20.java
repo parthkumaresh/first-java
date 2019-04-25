@@ -6,6 +6,8 @@ import java.util.Collections;
 public class ReverseArrayElements_20 {
     public static void main(String[] args) {
 
+        /*Working as expected*/
+
         //Constructing Arraylist
 
         ArrayList<String> list = new ArrayList<String>();

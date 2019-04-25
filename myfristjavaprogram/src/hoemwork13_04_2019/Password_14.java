@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Password_14 {
     public static void main(String[] args) {
 
+        /* Not Working as expected
+        * correct password also shows Invalid password*/
+
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter a Password: ");
         String password = input.next();

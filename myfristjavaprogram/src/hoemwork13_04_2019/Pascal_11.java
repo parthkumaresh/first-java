@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Pascal_11 {
     public static void main(String[] args) {
+
+        /*Working as expected*/
+
         int no_row,c=1,blk,i,j;
         System.out.print("Input number of rows: ");
         Scanner in = new Scanner(System.in);

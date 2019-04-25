@@ -5,6 +5,9 @@ import java.util.ArrayList;
 public class ArrayEmptyOrNot_22 {
 
     public static void main(String[] args) {
+
+        //Working as expected
+
         ArrayList<String> list = new ArrayList<>();
 
         System.out.println(list.isEmpty());     //true

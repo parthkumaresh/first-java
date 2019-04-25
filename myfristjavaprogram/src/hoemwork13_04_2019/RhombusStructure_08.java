@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class RhombusStructure_08 {
     public static void main(String[] args) {
 
+        /*Working as expected*/
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Input the numbers : ");
         int odd = 1;

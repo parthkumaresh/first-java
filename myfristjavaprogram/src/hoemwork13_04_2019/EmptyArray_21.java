@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class EmptyArray_21 {
     public static void main(String[] args) {
+
+        /*Working as expected*/
+
         // creating an Empty Integer ArrayList
         ArrayList<Integer> arr = new ArrayList<Integer>(4);
 

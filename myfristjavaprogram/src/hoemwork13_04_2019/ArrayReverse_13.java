@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class ArrayReverse_13 {
     public static void main(String[] args) {
 
+        /*Working as expected*/
+
         int count, i=0, j=0, temp;
         int number[] = new int[100];
         Scanner scanner = new Scanner(System.in);

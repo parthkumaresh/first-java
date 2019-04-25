@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class ReverseString_06 {
     public static void main(String[] args) {
+
+        /*Working as expected*/
+
         System.out.println( " Enter string to reserve: ");
         Scanner written = new Scanner ( System.in);
         String str = written.nextLine();

@@ -7,6 +7,9 @@ public class RetrieveArrayList_19 {
     public static void main(String[] args) {
 
         // create a list and add some colors to te list
+
+        /*Working as expected*/
+
         List<String> strings = new ArrayList<String>();
         strings.add("Red");
         strings.add("Black");
@@ -19,7 +22,7 @@ public class RetrieveArrayList_19 {
         //Retrieve the first and third element
         String element = strings.get(0);
         System.out.println("First element ; "+element);
-        element=strings.get(2);
+        element=strings.get(3);
         System.out.println("Third element: "+element);
     }
 }

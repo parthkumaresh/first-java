@@ -7,6 +7,8 @@ public class ArrayColor_17 {
     public static void main(String[] args) {
         List<String> color = new ArrayList<>();
 
+        //Working as expected
+
         color.add("Red");
         color.add("Blue");
         color.add("Green");
